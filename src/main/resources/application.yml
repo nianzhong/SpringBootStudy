@@ -1,8 +1,13 @@
-spring:
-  devtools:
-    restart:
-      enabled: true  #设置开启热部署
-      additional-paths: src/main/java #重启目录
-      exclude: WEB-INF/**
-  freemarker:
-    cache: false    #页面不加载缓存，修改即时生效
+student:
+  first-name: 元清
+  last-name: 钟
+  id: 41
+  student-name: 钟元清
+  family:
+    father: father
+    mother: mother
+  hobby:
+    - 唱歌
+    - 跳舞
+    - 画画
+  sex: boy
